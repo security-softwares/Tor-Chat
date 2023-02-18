@@ -42,7 +42,7 @@ then
 
 trap 'cat Normal_Torrc >/etc/tor/torrc' 1 2 3 9
 
-service tor start 2>/dev/null
+
 
 echo "link to join-:"
 
