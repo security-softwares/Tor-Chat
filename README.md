@@ -4,6 +4,92 @@ tor chat is highly encrypted chat system
 
 
 
+
+
+![](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+
+
+
+
+
+
+
+
+
+
+Encrypted Chat (python) Curses for Terminal !!
+
+
+
+![](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+
+
+
+
+
+
+---
+
+
+
+>Easy to use 
+
+
+
+
+
+
+
+>Inbuilt Encryption
+
+
+
+
+
+
+
+>TCP socket
+
+
+
+
+
+
+
+>Terminal UI
+
+
+
+
+
+
+
+## installation
+
+
+
+```
+
+
+
+git clone https://github.com/security-softwares/TorChat/
+
+
+
+cd TorChat
+
+bash tor_chat.sh
+
+```
+
+
+
+
+
+
+
 ![](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
 
