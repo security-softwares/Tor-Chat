@@ -147,7 +147,7 @@ Links subscribe for more
 
 
 
->bash tor_chat -s
+>bash tor_chat.sh -u
 
 
 
