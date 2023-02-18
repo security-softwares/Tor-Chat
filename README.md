@@ -86,7 +86,7 @@ bash tor_chat.sh
 
 
 
-
+run tor in one session before using tool
 
 
 
