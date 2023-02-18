@@ -17,9 +17,6 @@ echo -e "\033[1;33musage:    bash tor_chat.sh -s : For server side \n bash tor_c
 
 exit
 
-fi
-
-
 
 
 
