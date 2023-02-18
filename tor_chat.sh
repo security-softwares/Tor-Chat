@@ -37,7 +37,8 @@ elif [ "$1" == "-s" ]
 then
 
 
-tor & 
+
+tor -f torrc
 sleep 9
  cat torrc > /etc/tor/torrc
 
@@ -60,7 +61,8 @@ elif [ "$1" == "-c" ]
 then 
 
 
-tor &
+
+tor -f torrc
 sleep 10
 torsocks python3 chat_client.py
 
