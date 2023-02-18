@@ -102,7 +102,7 @@ bash tor_chat.sh
 
 ### for server setting
 
-- >sudo bash tor_chat -s
+- >bash tor_chat -s
 
 host=localhost or (default)
 
