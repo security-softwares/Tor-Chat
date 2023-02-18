@@ -1,2 +1,96 @@
 # Tor-Chat
 tor chat is highly encrypted chat system
+
+
+
+
+![](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+
+
+
+
+
+
+
+
+### for server setting
+
+- >sudo bash tor_chat -s
+
+host=localhost or (default)
+
+
+
+port = 8080
+
+### For joining server 
+
+
+
+- >bash tor_chat -c
+
+
+
+
+
+host= hostname (.onion address)
+
+
+
+
+
+port = 80 ``` listning address of tor ```
+
+
+
+
+
+---
+
+
+
+Links subscribe for more
+
+
+
+[Subscribe our YouTube channel link](https://www.youtube.com/channel/UCqVu524dUZOxscEMiou7Iew)
+
+
+
+
+
+## for uninstall
+
+
+
+>bash tor_chat -s
+
+
+
+![](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+
+
+
+
+
+
+![](https://www.codewars.com/users/Hackers%20Tech/badges/large)
+
+
+
+
+
+
+
+|pls share|the|repo |
+
+|----|----|----|
+
+|give|star to| repo |
+
+
+
+
+
