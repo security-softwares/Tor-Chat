@@ -167,7 +167,9 @@ Links subscribe for more
 
 
 ### contact
-t.me/huipuichui
+https://t.me/huipuichui
+
+
 |pls share|the|repo |
 
 |----|----|----|
