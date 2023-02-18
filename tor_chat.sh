@@ -2,7 +2,8 @@
 
 
 
-
+apt install torsocks -y
+apt install tor -y
 
 
 
@@ -26,13 +27,8 @@ fi
 
 
 
-if [ "$EUID" -ne 0 ]
 
-then
 
-echo "run with sudo"
-
-exit
 
 elif [ "$1" == "-s" ]
 
@@ -42,9 +38,9 @@ then
 
 
 
-sudo cat torrc > /etc/tor/torrc
+ cat torrc > /etc/tor/torrc
 
-trap 'cat Normal_Torrc >/etc/tor/torrc' 1 2/3 9
+trap 'cat Normal_Torrc >/etc/tor/torrc' 1 2 3 9
 
 service tor start 2>/dev/null
 
