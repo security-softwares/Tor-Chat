@@ -1,5 +1,5 @@
 # Tor-Chat
-tor chat is highly encrypted chat system
+tor chat is highly encrypted chat system for mobile users
 
 
 
