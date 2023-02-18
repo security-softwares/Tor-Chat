@@ -40,10 +40,11 @@ then
 
 trap 'cat Normal_Torrc >/etc/tor/torrc' 1 2 3 9
 
-tor &
+tor >/dev/null
+
+echo "starting in 10 second"
 
 
-sleep 14
 echo "link to join-:"
 
 cat /var/lib/tor/hidden_service/hostname
@@ -60,7 +61,8 @@ then
 
 
 
-tor &
+tor >/dev/null
+echo "starting in 10 second"
 sleep 10
 torsocks python3 chat_client.py
 
