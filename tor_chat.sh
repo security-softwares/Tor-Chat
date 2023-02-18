@@ -37,7 +37,8 @@ elif [ "$1" == "-s" ]
 then
 
 
-
+tor & 
+sleep 9
  cat torrc > /etc/tor/torrc
 
 trap 'cat Normal_Torrc >/etc/tor/torrc' 1 2 3 9
@@ -59,9 +60,8 @@ elif [ "$1" == "-c" ]
 then 
 
 
-
-service tor start 2>/dev/null
-
+tor &
+sleep 10
 torsocks python3 chat_client.py
 
 
