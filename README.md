@@ -65,7 +65,7 @@ Encrypted Chat (python) Curses for Terminal !!
 
 
 ### requirement 
-pip install curses requests 
+pip install windows-curses requests 
 
 ## installation
 
