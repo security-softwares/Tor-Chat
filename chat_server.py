@@ -5,9 +5,9 @@ HOST=input('enter Host (default : 127.0.0.1) ')
 if HOST=='' or HOST.isspace==True:
     HOST="127.0.0.1"
     
-PORT=input('(default-10001) PORT : ')
+PORT=input('(default-8080) PORT : ')
 if PORT=='' or PORT.isspace==True:
-    PORT=10001
+    PORT=8080
 else:
     PORT=int(PORT)
 MAX_CLIENTS=input('how many can join (ex:10): ')
