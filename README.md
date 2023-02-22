@@ -64,7 +64,8 @@ Encrypted Chat (python) Curses for Terminal !!
 
 
 
-
+### requirement 
+pip install curses requests 
 
 ## installation
 
